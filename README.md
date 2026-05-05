@@ -25,6 +25,5 @@ Application of Graph Attention Network (GAT) for spatial use.
 - `src/clustering.py`: Agglomerative clustering on learned embeddings.
 
 ## References
-If you use this code or data, please cite the following paper:
 - **Region2Vec: Community Detection on Spatial Networks Using Graph Embedding with Node Attributes and Spatial Interactions**
   *Yunlei Liang, Jiawei Zhu, Wen Ye, Song Gao*
