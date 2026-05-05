@@ -1,6 +1,6 @@
 # Spatial-GNN
 
-A high-performance Graph Attention Network (GAT) with spatial priors for region embedding.
+Application of Graph Attention Network (GAT) for spatial use.
 
 ## Quick Start
 
@@ -19,14 +19,10 @@ A high-performance Graph Attention Network (GAT) with spatial priors for region 
    ```
 
 ## Key Components
-- `src/model.py`: SpatialGAT implementation (Multi-head attention + Spatial Priors).
-- `src/train.py`: Training pipeline with InfoNCE loss and Laplacian regularization.
-- `src/data_loader.py`: Data loading with Laplacian Positional Encodings (LPE).
+- `src/model.py`: SpatialGAT implementation.
+- `src/train.py`: Training pipeline.
+- `src/data_loader.py`: Data loading.
 - `src/clustering.py`: Agglomerative clustering on learned embeddings.
-
-## Data Requirements
-Place the following in the `data/` directory:
-- `feature_matrix_f1.csv`, `Flow_matrix.csv`, `Spatial_matrix.csv`, `Spatial_distance_matrix.csv`
 
 ## References
 If you use this code or data, please cite the following paper:
